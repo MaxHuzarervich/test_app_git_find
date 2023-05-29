@@ -1,0 +1,69 @@
+.project-Container {
+    max-width: 440px;
+    margin: 25px;
+    padding: 13px 16px;
+}
+
+.project-Container, .block-comment {
+    border: 1px solid #A2A3A4;
+}
+
+h5, .author, .statistics {
+    margin-bottom: 18px;
+}
+
+.project-Container a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.project-Container h5 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    border-radius: 50px;
+    width: 50px;
+}
+
+.author span {
+    margin-left: 25px;
+}
+
+.statistics {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.statistics span {
+    font-size: 16px;
+}
+
+.statistics img {
+    width: 25px;
+}
+
+.block-comment {
+    display: flex;
+}
+
+.block-comment input, .button-comment {
+    border: none;
+    height: 54px;
+}
+
+.block-comment input {
+    width: 100%;
+}
+
+.button-comment {
+    width: 64px;
+    background-color: #00A3FF;
+}

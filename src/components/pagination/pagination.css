@@ -1,0 +1,19 @@
+.pagination-ul {
+    display: flex;
+    list-style: none;
+}
+
+.pagination-li, .pagination-li-checked {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border: 1px solid #A2A3A4;
+    cursor: pointer;
+}
+
+.pagination-li-checked {
+    background-color: rgb(221 221 221);
+}
